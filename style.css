@@ -100,8 +100,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 0;
   }
   .submit-button {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 }
