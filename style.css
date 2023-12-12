@@ -1,0 +1,96 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+}
+.container {
+  width: 600px;
+  border-radius: 2rem;
+  display: block;
+  margin: 5rem auto;
+  padding: 2rem;
+  text-align: center;
+  background: #ffffff;
+}
+h1 {
+  color: #fd8b19;
+  font-size: 40px;
+  margin: 15px 30px 30px;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+form {
+  padding: 30px;
+  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid gray;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: gray;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: #fd8b19;
+  color: white;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+}
+
+.quote {
+  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+  border-left: 3px solid #fd8b19;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 25px auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.generating {
+  animation: blink-animation 1s steps(3, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+footer {
+  font-size: 0.8rem;
+  font-family: monospace;
+  margin-top: 2rem;
+}
+a {
+  color: #fd8b19;
+  font-weight: bold;
+  text-decoration: none;
+}
